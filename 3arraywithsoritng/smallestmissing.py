@@ -24,4 +24,23 @@
 
 # # # y=missingNumber(arr)
 # # # print(y)
+    
+
+
+# def missingNumber(arr):
+#         #Your code here
+#         smallest_num=1
+#         for i in range(0,len(arr)):
+#             for j in arr:
+#                 if smallest_num==j:
+#                     smallest_num+=1
+#                     break
                 
+#         return smallest_num
+
+# y=missingNumber([0, -10, 1, 3, -20])
+# print(y)
+
+n=5
+for i in range(n):
+    print(i)

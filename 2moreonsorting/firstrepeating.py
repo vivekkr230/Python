@@ -55,7 +55,8 @@
 
             # this is with 0(n) complexity
 
-def firstRepeated(self, arr):
+arr=[1,2,3,4]
+def firstRepeated(arr):
     # Dictionary to store the frequency of elements
     element_count = {}
     
@@ -73,6 +74,9 @@ def firstRepeated(self, arr):
 
     # If no repeated element is found, return -1
     return -1
+
+y=firstRepeated(arr)
+print(y)
 
     
 
