@@ -1,0 +1,1 @@
+print(name_list)
